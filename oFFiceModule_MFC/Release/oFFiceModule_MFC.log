@@ -1,0 +1,23 @@
+﻿生成启动时间为 21/11/04 13:45:28。
+     1>项目“S:\smToll_0.1_aLpha\oFFiceModule_MFC\oFFiceModule_MFC.vcxproj”在节点 9 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\OfficeModule.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\OfficeModule.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt oFFiceModule_MFC.cpp oFFiceModule_MFCDlg.cpp
+         oFFiceModule_MFC.cpp
+         oFFiceModule_MFCDlg.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /l"0x0804" /IRelease\ /nologo /fo"Release\oFFiceModule_MFC.res" oFFiceModule_MFC.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"S:\smToll_0.1_aLpha\Release\OfficeModule.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"S:\smToll_0.1_aLpha\Release\OfficeModule.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:\smToll_0.1_aLpha\Release\OfficeModule.lib" /MACHINE:X86 /SAFESEH Release\oFFiceModule_MFC.res
+         Release\oFFiceModule_MFC.obj
+         Release\oFFiceModule_MFCDlg.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         oFFiceModule_MFC.vcxproj -> S:\smToll_0.1_aLpha\Release\OfficeModule.exe
+     1>已完成生成项目“S:\smToll_0.1_aLpha\oFFiceModule_MFC\oFFiceModule_MFC.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.17
