@@ -126,16 +126,28 @@ BOOL CFunnyModule_MFCDlg::OnInitDialog()
 
 	// TODO: 在此添加额外的初始化代码
 
+<<<<<<< HEAD
+	ModifyStyleEx(WS_EX_APPWINDOW,WS_EX_TOOLWINDOW);
+=======
 	CProgressCtrl* p_procontrol = 
 		(CProgressCtrl*)(GetDlgItem(IDC_PROGRESS2));
 
 	p_procontrol->SetPos(20);
+>>>>>>> 9c24d21a3cbd87c00047a2fc6f7ebaa017aacc7a
 
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
 
 void CFunnyModule_MFCDlg::OnSysCommand(UINT nID, LPARAM lParam)
 {
+<<<<<<< HEAD
+	if(nID == SC_MOVE || nID == 0xF012)
+	{
+		return;
+	}
+
+=======
+>>>>>>> 9c24d21a3cbd87c00047a2fc6f7ebaa017aacc7a
 	if ((nID & 0xFFF0) == IDM_ABOUTBOX)
 	{
 		CAboutDlg dlgAbout;
